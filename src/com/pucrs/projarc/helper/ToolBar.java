@@ -1,5 +1,11 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.helper;
 
+
+import com.pucrs.projarc.graph.Graph;
+import com.pucrs.projarc.graph.GraphPanel;
+import com.pucrs.projarc.interfaces.Edge;
+import com.pucrs.projarc.interfaces.Node;
+import com.pucrs.projarc.node.PointNode;
 
 import javax.swing.*;
 import java.awt.*;

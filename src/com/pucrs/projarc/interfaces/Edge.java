@@ -1,4 +1,4 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.interfaces;
 
 import java.awt.*;
 import java.awt.geom.*;

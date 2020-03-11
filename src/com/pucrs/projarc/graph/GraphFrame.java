@@ -1,4 +1,6 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.graph;
+
+import com.pucrs.projarc.helper.ToolBar;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -38,40 +40,19 @@ public class GraphFrame extends JFrame
       menuBar.add(fileMenu);
 
       JMenuItem openItem = new JMenuItem("Open");
-      openItem.addActionListener(new
-         ActionListener()
-         {
-            public void actionPerformed(ActionEvent event)
-            {
-               openFile();
-            }
-         });
+      openItem.addActionListener(event -> openFile());
       fileMenu.add(openItem);
 
       JMenuItem saveItem = new JMenuItem("Save");
-      saveItem.addActionListener(new 
-         ActionListener()
-         {
-            public void actionPerformed(ActionEvent event)
-            {
-               saveFile();
-            }
-         });
+      saveItem.addActionListener(event -> saveFile());
       fileMenu.add(saveItem);
 
       JMenuItem exitItem = new JMenuItem("Exit");
-      exitItem.addActionListener(new
-         ActionListener()
-         {
-            public void actionPerformed(ActionEvent event)
-            {
-               System.exit(0);
-            }
-         });
+      exitItem.addActionListener(event -> System.exit(0));
       fileMenu.add(exitItem);
 
       JMenuItem deleteItem = new JMenuItem("Delete");
-      deleteItem.addActionListener(new 
+      deleteItem.addActionListener(new
          ActionListener()
          {
             public void actionPerformed(ActionEvent event)

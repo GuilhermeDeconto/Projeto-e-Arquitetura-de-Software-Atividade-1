@@ -1,6 +1,7 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.graph;
 
-import com.pucrs.projarc.Edge;
+import com.pucrs.projarc.interfaces.Edge;
+import com.pucrs.projarc.interfaces.Node;
 
 import java.awt.*;
 import java.awt.geom.*;

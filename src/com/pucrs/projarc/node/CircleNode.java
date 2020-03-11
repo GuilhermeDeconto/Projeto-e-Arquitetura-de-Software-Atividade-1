@@ -1,5 +1,7 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.node;
 
+
+import com.pucrs.projarc.interfaces.Node;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

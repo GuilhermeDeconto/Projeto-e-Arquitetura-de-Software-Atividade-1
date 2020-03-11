@@ -1,4 +1,9 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.graph;
+
+import com.pucrs.projarc.node.CircleNode;
+import com.pucrs.projarc.edge.LineEdge;
+import com.pucrs.projarc.interfaces.Edge;
+import com.pucrs.projarc.interfaces.Node;
 
 import java.awt.*;
 

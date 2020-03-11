@@ -1,5 +1,9 @@
-package com.pucrs.projarc;
+package com.pucrs.projarc.graph;
 
+
+import com.pucrs.projarc.helper.ToolBar;
+import com.pucrs.projarc.interfaces.Edge;
+import com.pucrs.projarc.interfaces.Node;
 
 import java.awt.*;
 import java.awt.geom.*;
@@ -36,7 +40,7 @@ public class GraphPanel extends JPanel
             public void mousePressed(MouseEvent event)
             {
                Point2D mousePoint = event.getPoint();
-               Node n = graph.findNode(mousePoint); 
+               Node n = graph.findNode(mousePoint);
                Edge e = graph.findEdge(mousePoint);
                Object tool = toolBar.getSelectedTool();
                if (tool == null) // select

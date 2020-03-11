@@ -1,5 +1,8 @@
 package com.pucrs.projarc;
 
+import com.pucrs.projarc.graph.GraphFrame;
+import com.pucrs.projarc.graph.SimpleGraph;
+
 import javax.swing.*;
 
 /**
